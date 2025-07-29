@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <style>
+       *{
+            margin: 0%;
+            padding: 0;
+        }
+        body{
+            background-color: aqua;
+            text-align: center; 
+            align-content:center;
+        }
+        
+        .game{
+         height: 60vmin;
+       width:60vmin;
+         align-items: center;
+           display:flex;
+         flex-wrap: wrap;
+         flex-direction: row;
+         justify-content: center;
+         gap:1.5vmin;
+         margin: 500px;
+         margin-top: 15px;
+         margin-bottom: 40px;
+        }
+.btn{
+width: 18vmin;
+height: 18vmin;
+ border: none;
+ border-radius: 2rem;
+ box-shadow:  rgba(0 0 0 0.2);
+ color: brown;
+ font-size: 5vh;
+ background-color: antiquewhite;
+        }
+ .reset{
+  background-color: black;
+padding: 10px;
+color: white;
+border-radius: 1.5rem;
+font-size: 1rem;
+ } 
+   .new-btn{
+     background-color: black;
+padding: 1rem;
+color: white;
+border-radius: 1rem;
+font-size: 1.rem;
+border: none;
+   }    
+   .msg{
+    color: yellow;
+    font-size:8vmin;
+   }
+   .msg-container{
+    height:100vmin;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:4rem
+   }
+   .hide{
+    display:none;
+   }
+    </style>
+</head>
+<body>
+   <div class="msg-container hide">
+    <p class="msg"></p>
+    <button class="new-btn">New Game</button>
+  </div>
+    <h1>Tic Tac Toe</h1>
+<div class="game">
+ <button class="btn"></button>
+ <button class="btn"></button>
+<button class="btn"></button>
+<button class="btn"></button>
+<button class="btn"></button>
+<button class="btn"></button>
+ <button class="btn"></button>
+ <button class="btn"></button>
+ <button class="btn"></button>
+    </div>
+   </div> 
+   
+    <button class="reset">Reset button</button>
+   </div>
+   <script src="tac.js"></script>
+</body>
+</html>
