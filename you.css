@@ -1,0 +1,77 @@
+.thumb1{
+    width: 100%;
+   
+}
+#s1{
+ font-size: 20px; 
+   display: block;
+}.p1{
+    font-weight: 700;
+      font-size: 15px;
+margin-bottom: 10px;
+}
+.p2,.p3{
+
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 6px;
+}  
+ .box{
+        width:100%;
+       display: inline-block;
+       vertical-align: top;
+       margin-right: 40px; 
+
+    }
+    p{
+        margin-top: 0;
+    }
+    .text{
+ font-family: "Roboto", sans-serif;
+    }
+     .pro{
+        width:90%;
+     border-radius: 60%;
+    }
+.pro-text{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    column-gap: 10px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap:10px;
+    row-gap: 0px;
+     background-color: rgb(240,240,240);
+
+}
+.thumb{
+    position:relative;
+    margin-top: 20px;
+}
+.time{
+    background-color: black;
+    color:white;
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    padding: 3px;
+}
+.notify-class{
+    position: relative;
+}
+.red{
+   background-color:red;
+    position: absolute;
+    top: -3px;
+    right: 2px;  
+    border-radius: 50%;
+    padding-left:5px;
+    padding-right: 5px;
+    
+}
+
+
+   
