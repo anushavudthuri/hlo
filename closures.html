@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" onclick="counting()" value="click">
+    <p id="para">hi</p>
+    <script>
+        let  count =0;
+         function counting(){
+        count=count+1;
+         let p1=document.getElementById("para");
+       p1.innerText = `clicked: ${count}`;
+         }
+         function add(a,b,greet1){
+            var sum=a+b;
+            greet1(sum);
+         }
+       function greet(result){
+        console.log(result);
+       }
+       add(2,3,greet);
+function hello(msg,fun){
+   fun(msg)
+
+}
+hello("hi ",function(msg){
+    console.log(msg+"Anusha");
+});
+function outer(){
+    var x=12;
+    function inner(){
+        var y=23;
+        console.log(x);
+    }
+   return inner();
+}
+  let res=outer();
+  res();
+    </script>
+</body>
+</html>
